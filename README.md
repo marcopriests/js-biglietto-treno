@@ -13,6 +13,5 @@ Numero di push minimo: 6
 
 Ragionamento:
 
-- Dichiaro le variabili per salvare età del passeggero e numero di chilometri che esso vuole percorrere;
-- Dichiaro la variabile per salvare il prezzo finale del biglietto;
+- Dichiaro le variabili per salvare età del passeggero e numero di chilometri che esso vuole percorrere, prezzo base al chilometro e prezzo finale;
 - Effettuo il controllo per verificare se e quale tipologia di sconto applicare al biglietto.
