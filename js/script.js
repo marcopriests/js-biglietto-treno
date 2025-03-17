@@ -1,10 +1,12 @@
 //Dichiarazione variabili
-let passeggero, distanza, prezzoKm, prezzoTotale;
+let etaPasseggero, distanza, prezzoKm, prezzoTotale;
 
 //Procedimento
-passeggero = prompt("Inserisci il tuo nome");
+prezzoKm = 0.21;
+etaPasseggero = prompt("Inserisci la tua età");
+distanza = prompt("Inserisci il numero di chilometri che vuoi percorrere");
+prezzoTotale = distanza * prezzoKm
 
-distanza = prompt("inserisci il numero di chilometri che vuoi percorrere");
 
-console.log(passeggero, distanza)
+console.log(etaPasseggero, distanza, prezzoTotale);
 
