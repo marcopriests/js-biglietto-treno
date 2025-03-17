@@ -13,6 +13,9 @@ console.log(etaPasseggero, distanza, prezzoTotale);
 if (etaPasseggero < 18) {
     prezzoTotale = prezzoTotale * 0.8;
     console.log(prezzoTotale.toFixed(2));
+} else if (etaPasseggero >= 65) {
+    prezzoTotale = prezzoTotale * 0.6;
+    console.log(prezzoTotale.toFixed(2))
 } else {
     console.log("niente sconto");
 
