@@ -8,15 +8,12 @@ distanza = prompt("Inserisci il numero di chilometri che vuoi percorrere");
 prezzoTotale = distanza * prezzoKm
 
 
-console.log(etaPasseggero, distanza, prezzoTotale);
-
 if (etaPasseggero < 18) {
     prezzoTotale = prezzoTotale * 0.8;
-    console.log(prezzoTotale.toFixed(2));
+    console.log("Hai meno di 18 anni, quindi il biglietto per te costa: " + prezzoTotale.toFixed(2) + "€");
 } else if (etaPasseggero >= 65) {
     prezzoTotale = prezzoTotale * 0.6;
-    console.log(prezzoTotale.toFixed(2))
+    console.log("Hai più di 65 anni, quindi il biglietto per te costa: " + prezzoTotale.toFixed(2) + "€")
 } else {
-    console.log("niente sconto");
-
+    console.log("Il biglietto per te costa: " + prezzoTotale.toFixed(2) + "€");
 }
